@@ -1,9 +1,7 @@
 class Solution:
     # Write code below to complete prompt
     def isPalindrome(self, s):
-           if len(s) > 6:
-                return False
-           elif s[::-1] == s:
+           if len(s) > 6 and s[::-1] == s
                 return True
            else:
                 return False
