@@ -7,6 +7,7 @@ class Solution:
                 return True
            else:
                 return False
+def main():
     tc1 = Solution()
     inpyt = input()
     # Write code below to complete prompt
